@@ -1,0 +1,67 @@
+.navbar {
+  height: 60px;
+}
+
+.navWrapper {
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* =======left side of the navbar =====*/
+
+.navCenter {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navLanguage {
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+.navSearchContainer {
+  border: 1px solid lightgray;
+  display: flex;
+  align-items: center;
+  margin-left: 1.5rem;
+  padding: 0.3125rem;
+}
+
+.navInput {
+  border: none;
+}
+
+/* =======center side of the navbar =====*/
+.navLeft {
+  flex: 1;
+  cursor: pointer;
+}
+
+.navLogo {
+  font-weight: bold;
+}
+
+.navRight {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.navMenuItem {
+  font-size: 0.8rem;
+  cursor: pointer;
+
+  margin-left: 1.5625rem;
+}
+
+@media only screen and (max-width: 380px) {
+  .navLanguage,
+  .navSearchContainer {
+    display: none;
+  }
+}

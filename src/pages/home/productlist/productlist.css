@@ -1,0 +1,35 @@
+.productlistContainer {
+}
+
+.plTitle {
+  margin: 1.25rem;
+}
+
+.plFilterContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.plFilter {
+  margin: 1.25rem;
+  display: flex;
+  align-items: center;
+}
+
+.plFilterText {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-right: 1.25rem;
+}
+
+.plSelect {
+  padding: 0.625rem;
+  margin-right: 1.25rem;
+}
+
+@media only screen and (max-width: 380px) {
+  .plFilterContainer {
+    flex-direction: column;
+  }
+}

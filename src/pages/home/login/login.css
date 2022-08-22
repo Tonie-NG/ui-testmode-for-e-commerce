@@ -1,0 +1,63 @@
+
+
+.loginContainer {
+    width: 100vw;
+    height: 100vh;
+    /* background-color: rgb(0, 0, 0, .5); */
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5) ), url("https://images.unsplash.com/photo-1560419015-7c427e8ae5ba?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginWrapper {
+    padding: 1.25rem;
+    width: 30%;
+    background-color: #fff;
+    border-radius: 1.5rem;
+}
+
+.loginTitle {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.loginForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.loginFormInput {
+    flex: 1;
+    min-width: 40%;
+    margin: 0.625rem 0 ;
+    border-radius: 1rem;
+    padding: 0.625rem;
+    border: 1px solid black;
+}
+
+
+.loginButton {
+    width: 40%;
+    border: none;
+    padding: 0.9375rem 1.25rem;
+    background-color: teal;
+    color: white;
+    cursor: pointer;
+    margin: 1rem 0;
+    border-radius: 1rem;
+}
+
+.loginForgotPassword {
+    margin: 5px 0;
+    font-size: 0.75;
+    text-decoration: underline;
+}
+
+.loginCreateAccount {
+    margin: 5px 0;
+    font-size: 0.75;
+    text-decoration: underline;
+}

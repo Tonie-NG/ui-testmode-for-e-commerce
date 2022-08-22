@@ -1,0 +1,42 @@
+.newsletterContainer {
+    height: 60vh;
+    background-color: #fcf5f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.newsletterTitle {
+    font-size: 4.375rem;
+    margin-bottom: 1.25rem;
+}
+
+.newsletterDescription {
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-bottom: 1.25rem;
+}
+
+.newsletterInputContainer {
+    width: 50%;
+    height: 2.5rem;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid lightgray;
+}
+
+.newsletterInput {
+    border: none;
+    flex: 8;
+    padding-left: 1.25rem;
+}
+
+.newsletterButton {
+    border: none;
+    flex: 1;
+    background-color: teal;
+    color: #fff;
+}
